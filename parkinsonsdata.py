@@ -33,8 +33,6 @@ print(metrics.confusion_matrix(Y_test, y_pred))
 from sklearn import datasets
 from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
-# load the iris datasets
-dataset = datasets.load_iris()
 # fit a logistic regression model to the data
 model = LogisticRegression()
 model.fit(X_train, Y_train)
